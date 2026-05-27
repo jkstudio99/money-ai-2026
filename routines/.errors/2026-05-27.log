@@ -1,11 +1,9 @@
-DATE: 2026-05-27
-ERROR: Telegram API unreachable — "Host not in allowlist"
-REASON: Remote execution environment network policy blocks outbound connections to api.telegram.org
-CHUNKS_ATTEMPTED: 3
-CHUNKS_SENT: 0
-BOT: 8694712536:AAG_QLCrCvnEoWuePwl8a_zoMduQe5pPCQI
-CHAT_ID: 7669116888
-FALLBACK: Markdown → HTML → plain — all blocked
-ACTION: Report committed to GitHub only. Manual send required or allowlist api.telegram.org in env network policy.
-COMMIT: 2169504
-REPORT_URL: https://github.com/jkstudio99/money-ai-2026/blob/main/routines/2026-05-27.md
+date: 2026-05-27
+error: Telegram API host blocked by remote execution environment network policy
+response: "Host not in allowlist"
+bot_token_prefix: 8694712536
+chat_id: 7669116888
+chunks_attempted: 1
+chunks_sent: 0
+action: saved error log, content committed to GitHub repo
+fallback_url: https://github.com/jkstudio99/money-ai-2026/blob/main/routines/2026-05-27.md
